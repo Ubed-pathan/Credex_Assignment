@@ -16,7 +16,7 @@ This project was developed as part of the internship hiring process, demonstrati
 ## 🛠 Technical Implementation
 
 ### Core Technologies
-- React 18 with TypeScript
+- React with TypeScript
 - TailwindCSS for styling
 - Framer Motion for animations
 - Google Gemini API for AI chat
