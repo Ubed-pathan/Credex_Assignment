@@ -1,4 +1,4 @@
-import React, { useState, useEffect, FormEvent } from 'react';
+import React, { useState, useEffect, type FormEvent, type JSX } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Sun,
@@ -130,7 +130,7 @@ const Chatbot: React.FC<ChatbotProps> = ({ isOpen, onClose }) => {
     e.preventDefault();
     if (!input.trim()) return;
 
-    const userMessage = { role: 'user', content: input };
+    const userMessage: Message = { role: 'user', content: input };
     setMessages(prev => [...prev, userMessage]);
     setInput('');
     setIsLoading(true);
@@ -139,7 +139,7 @@ const Chatbot: React.FC<ChatbotProps> = ({ isOpen, onClose }) => {
     try {
       const response = await getGeminiResponse(input);
       setMessages(prev => [...prev, { role: 'bot', content: response }]);
-    } catch (error) {
+    } catch {
       setMessages(prev => [...prev, { 
         role: 'bot', 
         content: 'Sorry, I encountered an error. Please try again or contact our support team.' 
@@ -150,7 +150,7 @@ const Chatbot: React.FC<ChatbotProps> = ({ isOpen, onClose }) => {
   };
 
   const handleQuestionClick = async (question: string) => {
-    const userMessage = { role: 'user', content: question };
+    const userMessage: Message = { role: 'user', content: question };
     setMessages(prev => [...prev, userMessage]);
     setIsLoading(true);
     setShowQuestions(false);
@@ -158,7 +158,7 @@ const Chatbot: React.FC<ChatbotProps> = ({ isOpen, onClose }) => {
     try {
       const response = await getGeminiResponse(question);
       setMessages(prev => [...prev, { role: 'bot', content: response }]);
-    } catch (error) {
+    } catch {
       setMessages(prev => [...prev, { 
         role: 'bot', 
         content: 'Sorry, I encountered an error. Please try again or contact our support team.' 

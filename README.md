@@ -1,7 +1,5 @@
 # SoftSell - Software License Marketplace 
 
-![SoftSell](https://github.com/user-attachments/assets/f5b336de-7512-4cf9-b678-c4e53eb795fe)
-
 ## Assignment Overview
 This project was developed as part of the internship hiring process, demonstrating my ability to create a modern, full-featured web application within the given requirements.
 
@@ -126,9 +124,9 @@ This project showcases my:
 
 ---
 
-*This project was completed as part of the internship hiring process at [Company Name]. It demonstrates my ability to create production-ready applications while following best practices and maintaining high code quality.*
+PATHAN UBEDULLAKHAN HASANKHAN 
+ubedpathan818@gmail.com  
+https://ubedsportfolio.vercel.app/  
+18/05/2025
 
-[Your Name]  
-[Your Email]  
-[Your GitHub/Portfolio]  
-[Date of Submission]
+![SoftSell](https://github.com/user-attachments/assets/f5b336de-7512-4cf9-b678-c4e53eb795fe)
