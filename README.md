@@ -128,7 +128,7 @@ This project showcases my:
 
 ---
 
-PATHAN UBEDULLAKHAN HASANKHAN 
+PATHAN UBEDULLAKHAN HASANKHAN               
 ubedpathan818@gmail.com  
 https://ubedsportfolio.vercel.app/  
 18/05/2025
