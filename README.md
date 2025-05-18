@@ -1,5 +1,9 @@
 # SoftSell - Software License Marketplace 
 
+## 🚀 Live Demo
+
+🔗 [SoftSell Live Demo](https://softsell-flax-gamma.vercel.app/)
+
 ## Assignment Overview
 This project was developed as part of the internship hiring process, demonstrating my ability to create a modern, full-featured web application within the given requirements.
 
