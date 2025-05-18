@@ -1,6 +1,6 @@
 # SoftSell - Software License Marketplace 
 
-![SoftSell Platform](./public/screenshot.png)
+![SoftSell](https://github.com/user-attachments/assets/f5b336de-7512-4cf9-b678-c4e53eb795fe)
 
 ## Assignment Overview
 This project was developed as part of the internship hiring process, demonstrating my ability to create a modern, full-featured web application within the given requirements.
